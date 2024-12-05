@@ -1,0 +1,23 @@
+.monitor {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  margin-top: 20px;
+  .monitorheader {
+    color: #000;
+    .monitorheaderitem {
+        display: flex;
+      border: 1px solid #e0e0e0;
+      span:nth-child(1) {
+        padding: 5px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 100%;
+        background-color: #C4C4C4;
+      }
+    }
+  }
+  .monitorcontent {
+    margin-top: 20px;
+  }
+}
